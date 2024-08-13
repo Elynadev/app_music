@@ -1,0 +1,63 @@
+
+h1{text-align: center;
+    margin-top: 20px;}
+    
+    h2{
+        font-size: 16px;
+        text-align: left;
+        background-color: rgb(197, 151, 239);
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .ref{ 
+        font-size: 26px;
+        text-align: left;
+        background-color: tan;
+    }
+    p{
+    text-align: center;
+    }
+    
+    div{
+       
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        float: right;
+    }
+    li{
+       
+     
+        background-color: rgb(5, 200, 200);
+        display: flex;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .text{
+        color :white;
+        font-weight: bold;
+        padding: 5px;
+        
+    }
+    .bot{background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top:23px
+    
+    }
+    
+    aside{  
+        float: left;
+      }
+    
+     .list-group-item{
+        display: flex;
+        flex-direction: row;
+    
+      }

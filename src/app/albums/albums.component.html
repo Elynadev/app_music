@@ -11,38 +11,13 @@
 <body>
 <h1>Page principale Albums MUSIC </h1>
     <div>
- 
-        <!-- <aside>
-
-            <div  *ngFor="let album of albums;let i=index" class="card" style="width: 18rem;">
-                <img src="../assets/8kpng" class="card-img-top" alt="...">
-                
-                <div class="card-body" >
-                    <h3>{{album.title}}</h3>
-                    <h5 class="card-title">Name : {{album.title}}</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item active" aria-current="true"> ccc List of songs</li>
-                   
-                    </ul>
-                    <ul class="list-group list-group-flush"  *ngFor="let list of lists;let i=index">
-                         <ul class="list-group list-group-flush"  *ngFor="let liste of list.list;let i=index">
-                           
-                            <li class="list-group-item" *ngIf="">  {{list.list[i]}} </li>   
-                    </ul>
-                    </ul>
-                    </div>
-               
-                </div>
-                 
-          </aside>
-        
- -->
-
+    
+      
     <div class="card w-500">
         <div class="card-body">
             <article *ngFor="let album of albums ;let i=index">
-               
-               <h2> <a routerLink=""> {{ album.title }} </a>
+               <img src="{{album.url}}" alt="">
+               <h2> <a  href="/info/{{album.id}}"  > {{ album.title }} </a>
                 </h2>
              
                 <h3 class="ref"> {{ album.ref}} </h3>
@@ -62,9 +37,17 @@
                   
                   {{ album.duration }} minutes</p>
                    
-              <button (click)="onSee(i)" type="submit" class="btn btn-primary">Détails</button>
+              <button (click)="shown(album.id)" class="btn btn-primary">cccDétails</button>
                
+             
+                <button type="submit" class="btn btn-primary" (click)="onSave()">{{!affiche ?"Détails" : "reduire"}} </button>
+
+   
                 </li> 
+
+               
+ 
+        
       
             </article>
         </div>
@@ -72,6 +55,8 @@
   
 </div>
   
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
  

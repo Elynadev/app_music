@@ -1,0 +1,43 @@
+
+
+    
+    div{
+       
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        margin-top: 50px;
+        margin: 0 auto;
+    }
+    li{
+       
+     
+        background-color: rgb(5, 200, 200);
+        display: flex;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .text{
+        color :white;
+        font-weight: bold;
+        padding: 5px;
+        
+    }
+    .bot{background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top:23px
+    
+    }
+
+    body{
+        margin: 0 auto;
+    }
+    
+  

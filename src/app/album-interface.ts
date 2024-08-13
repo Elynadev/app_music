@@ -9,4 +9,5 @@ export interface AlbumInterface {
     tags?:string[],
     like?:string,
     status: string,
+    list:string[]
 }

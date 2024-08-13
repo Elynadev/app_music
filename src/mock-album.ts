@@ -9,10 +9,11 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Voluptate mollit consectetur pariatur labore. Quis amet quis minim nulla voluptate amet nisi. Ut sint veniam magna aute velit minim laborum eiusmod mollit dolor laborum. Minim Lorem Lorem pariatur adipisicing laborum tempor consequat est officia proident. Qui consequat duis ipsum minim Lorem cillum in excepteur.\r\n',
       duration: 600,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/500x500.jpg',
       like: 'Much',
       tags: ['nisi', 'do', 'id', 'laborum', 'non', 'sint', 'cillum'],
       status: 'off',
+      list: ['ad', 'qui', 'deserunt', 'nulla', 'cupidatat'],
     },
     {
       id: '2',
@@ -22,7 +23,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Magna laborum quis qui deserunt id. Aute sint consequat aliquip minim duis tempor reprehenderit laborum pariatur ut anim culpa. Laboris sit ea cillum ex nostrud deserunt. Nulla deserunt exercitation non eu ipsum. Cillum ut irure et ea esse ea anim nostrud proident. Non incididunt ut velit pariatur. Occaecat qui fugiat cupidatat est pariatur irure sunt excepteur anim.\r\n',
       duration: 480,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/0403860001678769422.jpeg',
       like: 'Much',
       status: 'off',
       tags: [
@@ -34,6 +35,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'irure',
         'fugiat',
       ],
+      list: ['ipsum', 'nostrud', 'aliqua', 'sunt'],
     },
     {
       id: '3',
@@ -43,10 +45,11 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Exercitation sunt qui sint eiusmod velit est dolor duis commodo nulla cillum cupidatat dolor voluptate. Amet aute duis deserunt ad quis eiusmod est. In veniam veniam mollit velit qui amet quis. Et do sint ipsum nisi velit culpa laborum.\r\n',
       duration: 360,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/ANG2LIQUE-KIDJO.jpg',
       tags: ['elit', 'eiusmod', 'qui', 'voluptate', 'ea', 'incididunt', 'amet'],
       status: 'off',
       like: 'Much',
+      list: ['nulla', 'velit', 'do'],
     },
     {
       id: '4',
@@ -56,10 +59,11 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Cillum proident commodo do non esse cillum incididunt officia qui occaecat. Excepteur id voluptate esse tempor aliqua voluptate in labore anim incididunt ea nostrud nisi. Proident adipisicing adipisicing enim adipisicing nisi elit irure.\r\n',
       duration: 840,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/burna-boy.jpg',
       like: 'Rather',
       tags: ['laborum', 'elit', 'tempor', 'eu', 'laborum', 'mollit', 'aliqua'],
       status: 'off',
+      list: ['nulla', 'velit', 'do'],
     },
     {
       id: '5',
@@ -69,7 +73,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Labore tempor laborum voluptate exercitation velit tempor magna ut pariatur sint ex. Est id magna mollit ipsum mollit minim officia. Enim aliquip eiusmod sunt incididunt aliquip occaecat eu. Eiusmod fugiat aliquip officia tempor esse ut et nulla. Commodo consectetur aliquip mollit laborum velit dolor quis nisi do. Consectetur voluptate quis nostrud deserunt incididunt ea in ad adipisicing ea laboris ullamco. Occaecat consectetur mollit deserunt excepteur enim consectetur dolor nostrud aute.\r\n',
       duration: 840,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/davido.jpg',
       like: 'Rather',
       tags: [
         'consectetur',
@@ -81,6 +85,8 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+    
+      list: ['in', 'nostrud'],
     },
     {
       id: '6',
@@ -90,7 +96,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n',
       duration: 360,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/fanicko-2-600x600.jpg',
       like: 'Much',
       tags: [
         'consectetur',
@@ -102,6 +108,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+      list: ['nulla', 'velit', 'do'],
     },
     {
       id: '7',
@@ -111,7 +118,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n',
       duration: 240,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/gnonnas-pedro.jpg',
       like: 'Much',
       tags: [
         'consectetur',
@@ -123,6 +130,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+      list: ['nulla', 'velit', 'do'],
     },
     {
       id: '8',
@@ -132,7 +140,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n',
       duration: 240,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/vano-baby-artiste-de-annee-benin-top-10.jpg',
       like: 'Much',
       tags: [
         'consectetur',
@@ -144,6 +152,8 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+      list: ['sint', 'minim', 'nisi', 'labore', 'consequat', 'duis', 'elit'],
+
     },
     {
       id: '9',
@@ -153,7 +163,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n',
       duration: 240,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/gnonnas-pedro.jpg',
       like: 'Much',
       tags: [
         'consectetur',
@@ -165,6 +175,15 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+      list: [
+        'exercitation',
+        'magna',
+        'deserunt',
+        'fugiat',
+        'eu',
+        'irure',
+        'dolore',
+      ],
     },
     {
       id: '10',
@@ -174,7 +193,7 @@ export const  ALBUMS:Array<AlbumInterface> = [
       description:
         'Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n',
       duration: 240,
-      url: 'http://placehold.it/32x32',
+      url: '../assets/image/ANG2LIQUE-KIDJO.jpg',
       like: 'Much',
       tags: [
         'consectetur',
@@ -186,13 +205,23 @@ export const  ALBUMS:Array<AlbumInterface> = [
         'fugiat',
       ],
       status: 'off',
+      list: [
+        'et',
+        'qui',
+        'consectetur',
+        'reprehenderit',
+        'sunt',
+        'Lorem',
+        'laborum',
+      ],
     },
   ];
   
   export const ALBUM_LISTS:Array<AlbumListInterface> = [
     {
       id: '1',
-      list: ['ad', 'qui', 'deserunt', 'nulla', 'cupidatat'],
+     
+      list: ['in', 'nostrud'],
     },
     {
       id: '2',

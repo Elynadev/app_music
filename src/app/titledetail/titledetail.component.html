@@ -1,1 +1,43 @@
-<p>titledetail works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+  <div class="card w-500">
+    <div class="card-body">
+        <article  >
+           <img src="{{album.url}}" alt="">
+           <h2> <a  href="/info">  {{ album.ref}}  </a>
+            </h2>
+         
+            <h3 class="ref">{{ album.title}}  </h3>
+            <p> {{album.description}}</p>
+            <ul>
+                <li  *ngFor="let tag of album.tags ;;let i=index">
+                
+                  <span class="text"> {{tag}}</span>
+                </li>
+            </ul> 
+            <li class="bot">
+            <button type="button" class="btn btn-primary">En</button>
+            
+            <p class="text-center"> ❤ {{ album.like}}
+              </p>
+            <p class="text-center">🕗 {{album.duration}}
+              
+               minutes</p>
+              </li>
+        </article>
+    </div>
+  </div>
+               
+</body>
+</html>

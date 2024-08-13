@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, input, OnInit } from '@angular/core';
 import { AlbumInterface } from '../album-interface';
 import { AlbumServiceService } from '../album-service.service';
 import { AlbumlistServiceService } from '../albumlist-service.service';
@@ -19,9 +19,17 @@ export class DetailAlbumComponent implements OnInit {
   liste(){
   
   };
+
+
   ngOnInit(): void {
     
     this.albums=this.AlbumService.getalbums();
     this.lists=this.albumlistService.getlist();
   }
-}
+  // afficherDetails(id:number){
+  //   const chanson = this.albumlistService.getListbyId;
+  //   if (chanson){
+  //     return chanson;
+  //   }
+  }
+

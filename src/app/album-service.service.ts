@@ -12,5 +12,8 @@ export class AlbumServiceService {
   getalbums():AlbumInterface[]{
     return this.albums;
   }
-
+ getalbum(id:string){
+ return this.albums.find((element)=>element.id===id)
+ }
+ 
 }

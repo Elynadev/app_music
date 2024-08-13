@@ -1,0 +1,12 @@
+.navbar-brand{
+  font-size: 28px;
+  color:white;
+  font-weight: bold;
+}
+.container-fluid{
+    background-color: rebeccapurple;
+    color: azure;
+}
+.search{
+    width: 500px;
+}
